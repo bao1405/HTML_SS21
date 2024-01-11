@@ -1,5 +1,5 @@
-var soNhap = prompt("Nhập vào một số từ 2 đến 8:");
-var soNguyen = parseInt(soNhap);
+let soNhap = prompt("Nhập vào một số từ 2 đến 8:");
+let soNguyen = parseInt(soNhap);
 switch (soNguyen) {
     case 2:
         console.log("Monday");
