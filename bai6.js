@@ -1,7 +1,7 @@
-var diemToan = parseFloat(prompt("Nhập điểm môn Toán:"));
-var diemVan = parseFloat(prompt("Nhập điểm môn Văn:"));
-var diemAnh = parseFloat(prompt("Nhập điểm môn Anh:"));
-var diemTrungBinh = (diemToan + diemVan + diemAnh) / 3;
+let diemToan = parseFloat(prompt("Nhập điểm môn Toán:"));
+let diemVan = parseFloat(prompt("Nhập điểm môn Văn:"));
+let diemAnh = parseFloat(prompt("Nhập điểm môn Anh:"));
+let diemTrungBinh = (diemToan + diemVan + diemAnh) / 3;
 if (diemTrungBinh >= 8.0 && diemTrungBinh <= 10) {
     console.log("Xếp loại: GIỎI");
 } else if (diemTrungBinh >= 6.5 && diemTrungBinh <= 7.9) {
