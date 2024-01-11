@@ -1,7 +1,7 @@
-var canNang = parseFloat(prompt("Nhập cân nặng (kg):"));
-var chieuCao = parseFloat(prompt("Nhập chiều cao (m):"));
+let canNang = parseFloat(prompt("Nhập cân nặng (kg):"));
+let chieuCao = parseFloat(prompt("Nhập chiều cao (m):"));
 
-var bmi = canNang / (chieuCao ** 2);
+let bmi = canNang / (chieuCao ** 2);
 console.log("Chỉ số BMI của bạn là: " + bmi);
 if (bmi < 18.5) {
     console.log("cân nặng thấp(Gầy)");
