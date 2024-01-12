@@ -1,6 +1,6 @@
-let soNhap = prompt("Nhập vào một số bất kỳ:");
+var soNhap = prompt("Nhập vào một số bất kỳ:");
 if (!isNaN(soNhap)) {
-    let soNhapSo = parseFloat(soNhap);
+    var soNhapSo = parseFloat(soNhap);
     if (soNhapSo % 2 === 0) {
         console.log("Số " + soNhapSo + " là số chẵn.");
     } else {
